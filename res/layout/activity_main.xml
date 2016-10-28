@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffff0000">
+    
+    <person.ljd.luckpan.LuckyPan
+        android:id="@+id/id_luckyPan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:padding="30dp">
+    </person.ljd.luckpan.LuckyPan>
+    <ImageView
+        android:id="@+id/id_start_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/start"
+        />
+
+</RelativeLayout>
